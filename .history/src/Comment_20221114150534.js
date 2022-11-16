@@ -1,0 +1,36 @@
+import React, { useState, useEffect } from "react";
+import { Routes, Route, useParams } from "react-router-dom";
+import "./index.css";
+import axios from "axios";
+
+function Comment() {
+  const baseURL = "https://2y6i6tqn41.execute-api.ap-northeast-1.amazonaws.com";
+  let { threadId } = useParams();
+  const [post, setpost] = useState();
+ 
+   console.log(threadId);
+
+  useEffect(() => {
+    axios.get(`${baseURL}/threads`).then((response) => {
+      setpost(response.data);
+    });
+  }, []);
+
+ 
+  const threadsList = post.map((number) => (
+    <li key={number}>
+      {number}</div>
+    </li>
+  ));
+
+  return (
+    <div>
+      <div className="title">TechTrainってどうなの？</div>
+      <div className="threads">
+        <ul>{threadsList}</ul>
+      </div>
+    </div>
+  );
+}
+
+export default Comment;
