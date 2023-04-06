@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# 掲示板アプリ
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+
+## バージョン情報
 
 In the project directory, you can run:
 
