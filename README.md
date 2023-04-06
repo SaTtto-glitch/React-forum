@@ -6,7 +6,7 @@ React + Jypescriptで掲示板アプリ
 
 ## 開発環境
 
-| First Header  | バージョン |
+| ツール  | バージョン |
 | ------------- | ------------- |
 | node.js  | Content Cell  |
 | Jabascript  | Content Cell  |
