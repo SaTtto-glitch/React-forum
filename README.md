@@ -1,7 +1,7 @@
 # 掲示板アプリ
 オンラインスクールでの課題で制作
 
-React + Jypescriptで掲示板アプリ
+React + javascriptで掲示板アプリ
 
 
 ## 開発環境
