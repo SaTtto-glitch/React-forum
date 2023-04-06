@@ -5,9 +5,13 @@ React + Jypescriptで掲示板アプリ
 
 
 ## 開発環境
-* node.js
-* React
-* Jabascript
+
+| First Header  | バージョン |
+| ------------- | ------------- |
+| node.js  | Content Cell  |
+| Jabascript  | Content Cell  |
+| React  | Content Cell  |　
+
 
 ## 学習した内容
 * Node.jsのバージョン管理ツールを使って開発時のバージョンを固定
