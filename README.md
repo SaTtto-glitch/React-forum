@@ -1,5 +1,7 @@
 # 掲示板アプリ
-オンラインスクールでの課題で制作
+
+![掲示板アプリ](https://github.com/SaTtto-glitch/React-forum/assets/111780207/16d899d0-d0f4-4eb1-91fd-5434e89f378e)
+
 
 React + javascriptで掲示板アプリ
 
